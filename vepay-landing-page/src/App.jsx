@@ -11,7 +11,9 @@ function App() {
   return (
     <>
       <Nav></Nav>
+      <div className="hero-section">
         <Hero></Hero>
+      </div>
     </>
   )
 }
