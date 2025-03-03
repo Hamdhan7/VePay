@@ -5,17 +5,18 @@
     align-items: center;
     justify-content: space-between;
     padding: 0;
-    margin-top: 6rem;
+    margin-top: 4.5rem;
     min-height: fit-content;
     border-radius: 1.5625rem;
 }
 
 /* Hero Content (Text + Button) */
 .hero-content {
-    max-width: 50%;
+    width: fit-content;
     text-align: left;
     z-index: 2;
-    margin-right: -23vw;
+    margin-right: -22vw;
+    padding-left: 8vw;
 
 }
 
@@ -28,7 +29,7 @@
 }
 
 .hero-content h1 {
-    font-size: 2.5rem;
+    font-size: 3.8rem;
     color: #333333;
     font-weight: 700;
     text-align: left;
@@ -39,8 +40,9 @@
 }
 
 .hero-content p {
-    font-size: 1.2rem;
-    margin: 15px 0;
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 2rem 0;
     color: #333333;
     text-align: left;
 
@@ -54,6 +56,7 @@
     border: none;
     border-radius: 5px;
     font-size: 1rem;
+    font-weight: 600;
     cursor: pointer;
     transition: background 0.3s;
 }
@@ -66,8 +69,79 @@
 .hero-image img {
     width: auto;
     height: 95vh;
-    margin-top: 4vw;
+    margin-top: 5vw;
 }
+
+@media (min-width: 2560px) {
+
+    .hero {
+        margin-top: 6rem;
+    }
+
+    .hero-image img {
+        width: auto;
+        height: 80vh;
+        margin-top: 4vw;
+    }
+
+    .hero-content h1 {
+        font-size: 7.5rem;
+    }
+
+    .hero-content p {
+        font-size: 2rem;
+        margin: 3rem 0;
+    }
+
+    .hero-button {
+        background-color: #022C87;
+        color: white;
+        padding: 28px 40px;
+        border: none;
+        border-radius: 20px;
+        font-size: 2rem;
+        cursor: pointer;
+        transition: background 0.3s;
+    }
+
+}
+
+
+@media (max-width: 1024px) {
+
+    .hero {
+        margin-top: 3rem;
+    }
+
+    .hero-image img {
+        width: auto;
+        height: 80vh;
+        margin-top: 4vw;
+    }
+
+    .hero-content h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero-content p {
+        font-size: 0.8rem;
+        margin: 2rem 0;
+    }
+
+    .hero-button {
+        background-color: #022C87;
+        color: white;
+        padding: 8px 20px;
+        border: none;
+        border-radius: 5px;
+        font-size: 0.8rem;
+        cursor: pointer;
+        transition: background 0.3s;
+    }
+
+}
+
+
 
 /* Responsive Design */
 @media (max-width: 900px) {

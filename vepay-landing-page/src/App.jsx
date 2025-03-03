@@ -10,7 +10,9 @@ function App() {
 
   return (
     <>
-      <Nav></Nav>
+        <div className="nav-section">
+            <Nav></Nav>
+        </div>
       <div className="hero-section">
         <Hero></Hero>
       </div>
