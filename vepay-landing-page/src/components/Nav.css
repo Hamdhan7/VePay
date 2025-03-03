@@ -1,0 +1,142 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav {
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 15px 20px;
+}
+
+/* Logo (Aligned to the Left) */
+.nav-logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+
+}
+
+.nav-logo img{
+    width: 7rem;
+}
+
+/* Right Section (Links + Button) */
+.nav-right {
+    display: flex;
+    align-items: center;
+}
+
+/* Navigation Links */
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 22px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 0.8rem;
+    transition: color 0.3s;
+    font-weight: 400;
+}
+
+.nav-links li a:hover {
+    color: #007bff;
+}
+
+/* Contact Us Button */
+.nav-button {
+    background-color: #022C87;
+    color: white;
+    border: none;
+    padding: 15px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-left: 30px;
+    transition: background 0.3s;
+    font-weight: 600;
+}
+
+.nav-button:hover {
+    background-color: #0056b3;
+}
+
+/* Hamburger Menu (Mobile) */
+.nav-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.nav-toggle span {
+    background: #333;
+    height: 3px;
+    width: 25px;
+    margin: 4px 0;
+    transition: 0.3s;
+}
+
+/* Responsive Design */
+@media (max-width: 900px) {
+    .nav-right {
+        display: flex;
+        align-items: center;
+    }
+
+    .nav-container{
+        padding: 8px 11px;
+
+    }
+
+
+    .nav-logo img{
+        width: 5rem;
+    }
+
+    .nav-links {
+        position: absolute;
+        top: 60px;
+        right: 0;
+        width: 100%;
+        background: white;
+        flex-direction: column;
+        text-align: right;
+        padding: 10px 0;
+        display: none;
+    }
+
+    .nav-links.open {
+        display: flex;
+        padding-right: 1rem;
+    }
+
+    .nav-button {
+        display: none;
+    }
+
+    .nav-toggle {
+        display: flex;
+    }
+}
