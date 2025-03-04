@@ -173,10 +173,37 @@
 
 /* Responsive Design */
 @media (max-width: 767px) {
+
     .hero {
         flex-direction: column;
+        margin-top: -10rem;
         text-align: center;
-        padding: 40px 5%;
+        padding: 1.5rem 1rem;
+    }
+
+    .hero-content {
+        width: fit-content;
+        text-align: left;
+        z-index: 2;
+        margin-right: 0;
+        padding-left: 4vw;
+
+    }
+
+
+    .hero-content h1 {
+        font-size: 2rem;
+    }
+
+    .hero-content p {
+        font-size: 1rem;
+        margin: 2rem 0;
+    }
+
+    .hero-button {
+        padding: 8px 20px;
+        font-size: 1rem;
+        border-radius: 10px;
     }
 
     .hero-content {
