@@ -7,6 +7,7 @@ import Hero from "./components/Hero.jsx";
 import HeroSectionCards from "./components/HeroSectionCards.jsx";
 import VeCardSection from "./components/VeCardSection.jsx";
 import VePayCheckingSection from "./components/VePayCheckingSection.jsx";
+import MarketplaceConnection from "./components/MarketplaceConnection.jsx";
 
 function App() {
   const [count, setCount] = useState(0)
@@ -22,6 +23,7 @@ function App() {
       </div>
         <VeCardSection></VeCardSection>
         <VePayCheckingSection></VePayCheckingSection>
+        <MarketplaceConnection></MarketplaceConnection>
 
     </>
   )
