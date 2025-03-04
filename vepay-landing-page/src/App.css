@@ -7,6 +7,9 @@
 }
 
 .hero-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
   padding: 1rem 2rem;
 
 }
@@ -19,7 +22,6 @@
 
   .hero-section{
     padding: 2rem 4rem;
-
   }
 
   .nav-section{
@@ -32,7 +34,7 @@
 @media (max-width: 767px) {
 
   .hero-section{
-    padding: 1rem 1rem;
+    padding: 0rem 0rem;
 
   }
 
