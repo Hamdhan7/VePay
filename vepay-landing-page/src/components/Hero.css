@@ -178,7 +178,7 @@
         background-image: url("../assets/HeroBgForMobile.png");
         background-size: 27rem;
         background-repeat: no-repeat;
-        background-position: top;
+        background-position: inherit;
         flex-direction: column;
         margin-top: 3rem;
         text-align: center;

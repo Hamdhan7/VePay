@@ -185,8 +185,21 @@
 
 @media (min-width: 2560px) {
 
+    .card{
+        border-radius: 3rem;
+    }
+
+    .card-section{
+        padding: 6rem 10vw;
+    }
+
+    .card-container{
+        gap: 3rem;
+    }
     .instapay-card {
         padding: 8rem 4rem 3rem 4rem;
+        border-radius: 3rem;
+
     }
 
     .instapay-card h4 {
@@ -213,8 +226,19 @@
         color: white;
     }
 
+    .vefund-header{
+        border-bottom-left-radius: 2.5rem;
+        border-top-right-radius: 2.5rem;
+        padding: 2.5rem;
+    }
     .vefund-body {
         padding: 8.5rem 1.5rem 4rem 0rem;
+        border-radius: 3rem;
+
+    }
+
+    .funding-img{
+        width: 7rem;
     }
 
     .vefund-body p{
@@ -237,16 +261,23 @@
         font-size: 2rem;
     }
 
+    .marketplaces-card{
+        margin-top: 3rem;
+    }
+    .marketplace-item{
+        padding-left: 3rem;
+    }
+
     .marketplaces-card h2 {
-        font-size: 1rem;
+        font-size: 3rem;
     }
 
     .marketplaces-card p{
-        font-size: 0.6rem;
+        font-size: 2rem;
     }
 
     .marketplace-item img{
-        width: 2.5rem;
+        width: 10.5rem;
         height: auto;
     }
 
@@ -263,7 +294,7 @@
     }
 
     .instapay-card h4 {
-        font-size: 0.8rem;
+        font-size: 1rem;
     }
 
     .instapay-card h2 {
@@ -272,7 +303,7 @@
     }
 
     .instapay-card p {
-        font-size: 0.6rem;
+        font-size: 0.8rem;
         margin-bottom: 1rem;
     }
 
@@ -282,18 +313,18 @@
     }
 
     .header-text p {
-        font-size: 0.6rem;
+        font-size: 0.8rem;
         color: white;
     }
 
 
     .vefund-body p{
-        font-size: 0.6rem;
+        font-size: 0.8rem;
         color: #4B5563;
     }
 
     .vefund-body h4 {
-        font-size: 0.8rem;
+        font-size: 1rem;
         color: #6B7280;
     }
 
@@ -330,7 +361,7 @@
 @media (max-width: 900px) {
 
     .card-section{
-        padding: 5rem 1rem;
+        padding: 3rem 1rem 1rem 1rem;
     }
 
     .instapay-card {
@@ -432,7 +463,7 @@
     }
 
     .card-section{
-        padding: 5rem 1rem;
+        padding: 2rem 1rem 2rem 1rem;
     }
 
     .instapay-card {
