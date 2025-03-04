@@ -131,7 +131,7 @@
     .hero-button {
         background-color: #022C87;
         color: white;
-        padding: 8px 20px;
+        padding: 0.8rem 0.8rem;
         border: none;
         border-radius: 5px;
         font-size: 0.8rem;
@@ -164,10 +164,9 @@
     }
 
     .hero-button {
-        padding: 8px 20px;
+        padding: 0.8rem 0.8rem;
         font-size: 0.8rem;
     }
-
 }
 
 
@@ -220,4 +219,10 @@
     .hero-image {
         display: none;
     }
+
+    .hero-button {
+        padding: 0.8rem 0.8rem;
+        font-size: 0.8rem;
+    }
+
 }

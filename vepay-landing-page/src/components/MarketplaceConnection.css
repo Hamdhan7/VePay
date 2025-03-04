@@ -98,6 +98,44 @@
     color: #666;
 }
 
+.button-container {
+    display: flex;
+    gap: 1rem;
+    padding: 5rem 0rem 5rem 0rem;
+}
+
+.invoice-financing {
+    background-color: #EEF3FF;
+    color: #022C87;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 0.5rem;
+    cursor: pointer;
+
+}
+
+.business-funding {
+    background-color: #022C87;
+    color: #FFFFFF;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.invoice-financing:hover {
+    background-color: #DCE6FF;
+}
+
+.business-funding:hover {
+    background-color: #011F5B;
+}
+
+
 @media (min-width: 2560px) {
 
     .market-place-container-upper-section {
@@ -191,6 +229,25 @@
         color: #666;
     }
 
+    .button-container {
+        display: flex;
+        gap: 3rem;
+        padding: 9rem 0rem 9rem 0rem;
+    }
+
+    .invoice-financing {
+        padding: 2rem 2rem;
+        font-size: 2rem;
+        border-radius: 0.5rem;
+
+    }
+
+    .business-funding {
+        padding: 2rem 2rem;
+        font-size: 2rem;
+        border-radius: 0.5rem;
+    }
+
 
 }
 
@@ -272,6 +329,25 @@
     #cardImage3 {
         width: 16rem;
         margin-bottom: 4rem;
+    }
+
+    .button-container {
+        display: flex;
+        gap: 1.5rem;
+        padding: 4rem 0rem 4rem 0rem;
+    }
+
+    .invoice-financing {
+        padding: 0.8rem 1.5rem;
+        font-size: 0.8rem;
+        border-radius: 0.5rem;
+
+    }
+
+    .business-funding {
+        padding: 0.8rem 1.5rem;
+        font-size: 0.8rem;
+        border-radius: 0.5rem;
     }
 
 
@@ -370,4 +446,25 @@
         width: 15rem;
         margin-bottom: 5rem;
     }
+
+
+    .button-container {
+        display: flex;
+        gap: 1rem;
+        padding: 2rem 0rem 2rem 0rem;
+    }
+
+    .invoice-financing {
+        padding: 0.8rem 0.8rem;
+        font-size: 0.8rem;
+        border-radius: 0.5rem;
+
+    }
+
+    .business-funding {
+        padding: 0.8rem 0.8rem;
+        font-size: 0.8rem;
+        border-radius: 0.5rem;
+    }
+
 }

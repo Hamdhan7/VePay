@@ -7,19 +7,19 @@ const MarketplaceConnection = () => {
     return (
         <section className="marketplace-container">
             <div className="market-place-container-upper-section">
-            <h2 className="marketplace-heading">
-                Seamlessly Connect to Any Marketplace and Unlock Instant Financing.
-            </h2>
-            <p className="marketplace-description">
-                At VePay, we’ve made it fast and effortless to get funded. In just three
-                easy steps, connect your eCommerce business and access the working
-                capital you need – instantly.
-            </p>
+                <h2 className="marketplace-heading">
+                    Seamlessly Connect to Any Marketplace and Unlock Instant Financing.
+                </h2>
+                <p className="marketplace-description">
+                    At VePay, we’ve made it fast and effortless to get funded. In just three
+                    easy steps, connect your eCommerce business and access the working
+                    capital you need – instantly.
+                </p>
             </div>
             <div className="card-container">
                 <div className="marketplace-card">
                     <div className="card-image">
-                        <img src={cardImage1} id="cardImage1" alt="Sign Up" />
+                        <img src={cardImage1} id="cardImage1" alt="Sign Up"/>
                     </div>
                     <div className="card-body">
                         <h3>Sign Up</h3>
@@ -29,7 +29,7 @@ const MarketplaceConnection = () => {
 
                 <div className="marketplace-card">
                     <div className="card-image">
-                        <img src={cardImage2} id="cardImage2" alt="Connect Your Marketplace" />
+                        <img src={cardImage2} id="cardImage2" alt="Connect Your Marketplace"/>
                     </div>
                     <div className="card-body">
                         <h3>Connect Your Marketplace</h3>
@@ -39,14 +39,20 @@ const MarketplaceConnection = () => {
 
                 <div className="marketplace-card">
                     <div className="card-image">
-                        <img src={cardImage3}  id="cardImage3" alt="Unlock Your Funds" />
+                        <img src={cardImage3} id="cardImage3" alt="Unlock Your Funds"/>
                     </div>
                     <div className="card-body">
                         <h3>Unlock Your Funds</h3>
-                        <p>Whether through InstaPay or VeFund, enjoy fast access to up to 70% of your net invoice within 24 hours.</p>
+                        <p>Whether through InstaPay or VeFund, enjoy fast access to up to 70% of your net invoice within
+                            24 hours.</p>
                     </div>
                 </div>
             </div>
+            <div className="button-container">
+                <button className="invoice-financing">Invoice Financing</button>
+                <button className="business-funding">Business Funding</button>
+            </div>
+
         </section>
     );
 };
