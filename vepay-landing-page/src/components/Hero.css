@@ -5,7 +5,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 0;
-    margin-top: 5rem;
+    margin-top: 4rem;
     min-height: fit-content;
     border-radius: 1.5625rem;
 }
@@ -192,6 +192,8 @@
         z-index: 2;
         margin-right: 0;
         padding-left: 4vw;
+        padding-bottom: 4vw;
+        padding-top: 6vw;
 
     }
 

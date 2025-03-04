@@ -436,6 +436,8 @@
     }
 
     .instapay-card {
+        order: 2; /* Moves InstaPay card to the second position */
+
         padding: 3rem 1rem 0.5rem 1rem;
     }
 
@@ -465,6 +467,8 @@
 
     .vefund-card{
         padding: 0rem 0rem 0.5rem 1.8rem;
+        order: 1; /* Moves VeFund card to the first position */
+
     }
 
     .vefund-body {
